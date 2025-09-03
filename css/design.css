@@ -1,0 +1,225 @@
+/* Design Section Styles - 이미지 크기 고정, 카드 동적 조정 */
+.design-section {
+    padding: 80px 0;
+    background: #f8f9fa;
+}
+
+.design-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    align-items: stretch; /* center에서 stretch로 변경 - 높이 맞춤 */
+}
+
+/* 좌측 정보 영역 - 이미지 높이에 맞춤 */
+.design-info {
+    display: flex;
+    flex-direction: column;
+    gap: 0; /* 갭 제거하여 균등 분배 */
+    height: 100%; /* 부모 높이에 맞춤 */
+}
+
+.design-item {
+    flex: 1; /* 균등한 높이 분배 */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.8rem;
+    padding: 1.2rem;
+    background: white;
+    border-radius: 8px;
+    box-shadow: var(--shadow-sm);
+    transition: var(--transition);
+    cursor: pointer;
+    margin-bottom: 1rem; /* 카드 간 간격 */
+}
+
+.design-item:last-child {
+    margin-bottom: 0;
+}
+
+.design-item:hover {
+    transform: translateX(10px);
+    box-shadow: var(--shadow-md);
+    background: linear-gradient(to right, rgba(26, 84, 144, 0.02), white);
+}
+
+.design-item.active {
+    border-left: 4px solid var(--primary-color);
+    background: linear-gradient(to right, rgba(26, 84, 144, 0.08), white);
+    transform: translateX(5px);
+}
+
+.design-label {
+    font-weight: 700;
+    color: var(--primary-color);
+    font-size: 1.15rem;
+    margin-bottom: 0.3rem;
+}
+
+.design-value {
+    color: var(--text-dark);
+    line-height: 1.6;
+    font-size: 0.95rem;
+    opacity: 0.9;
+}
+
+/* Design Slider Wrapper - 화살표 제거 */
+.design-slider-wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%; /* 높이를 100%로 설정 */
+}
+
+/* Design Image Container - 크기 고정 */
+.design-image-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.design-slider {
+    position: relative;
+    width: 100%;
+    height: 500px; /* 고정 높이 설정 */
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.12);
+    background: white;
+}
+
+.design-slides {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.design-slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 0.6s ease-in-out, transform 0.6s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    padding: 20px;
+}
+
+.design-slide.active {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.design-slide:not(.active) {
+    transform: scale(0.95);
+}
+
+.design-slide img {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+    object-position: center;
+    border-radius: 8px;
+}
+
+/* Slider Buttons - 완전히 제거 */
+.design-slider-btn {
+    display: none;
+}
+
+/* 인디케이터 제거 */
+
+/* 반응형 */
+@media (max-width: 1200px) {
+    .design-slider {
+        height: 450px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .design-content {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+    
+    .design-info {
+        order: 2;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+    
+    .design-item {
+        flex: 1 1 calc(50% - 0.5rem);
+        margin-bottom: 0;
+    }
+    
+    .design-slider-wrapper {
+        order: 1;
+    }
+    
+    .design-slider {
+        height: 400px;
+    }
+}
+
+@media (max-width: 768px) {
+    .design-section {
+        padding: 60px 0;
+    }
+    
+    .design-slider {
+        height: 350px;
+    }
+    
+    .design-info {
+        flex-direction: column;
+    }
+    
+    .design-item {
+        flex: 1;
+        padding: 1rem;
+        margin-bottom: 0.8rem;
+    }
+    
+    .design-item:last-child {
+        margin-bottom: 0;
+    }
+    
+    .design-label {
+        font-size: 1.05rem;
+    }
+    
+    .design-value {
+        font-size: 0.9rem;
+    }
+    
+    .design-slide {
+        padding: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .design-slider {
+        height: 300px;
+    }
+    
+    .design-item {
+        padding: 0.9rem;
+        margin-bottom: 0.6rem;
+    }
+    
+    .design-label {
+        font-size: 1rem;
+    }
+    
+    .design-value {
+        font-size: 0.85rem;
+    }
+}

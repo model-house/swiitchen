@@ -1,1 +1,128 @@
-Hi
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO Meta Tags - 이 부분은 admin에서 자동 업데이트됨 -->
+    <title>김포 오퍼스 한강 스위첸 | 한강신도시 프리미엄 아파트 분양</title>
+    <meta name="description" content="김포 한강신도시 프리미엄 아파트. 지하철 도보 5분, 한강조망, 84㎡·99㎡ 분양. 모델하우스 오픈!">
+    <meta name="keywords" content="김포 아파트, 한강신도시, 김포 분양, 스위첸, 오퍼스">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="김포 오퍼스 한강 스위첸">
+    <meta property="og:description" content="김포 한강신도시 프리미엄 아파트 분양">
+    <meta property="og:image" content="assets/images/hero/hero.jpg">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/sections.css">
+    <link rel="stylesheet" href="css/design.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- SEO를 위한 기본 HTML 구조 (JS 로드 전 표시) -->
+    <div id="initial-content">
+        <!-- 로딩 중 표시 -->
+        <div class="initial-loading">
+            <div class="loading-spinner"></div>
+            <h1>김포 오퍼스 한강 스위첸</h1>
+            <p>페이지를 불러오는 중입니다...</p>
+        </div>
+        
+        <!-- SEO용 기본 콘텐츠 (숨김 처리) -->
+        <div class="seo-fallback" style="opacity: 0; position: absolute; pointer-events: none;">
+            <header>
+                <h1>김포 오퍼스 한강 스위첸</h1>
+                <nav>
+                    <a href="#overview">사업개요</a>
+                    <a href="#location">입지환경</a>
+                    <a href="#floorplans">평면도</a>
+                    <a href="#contact">문의</a>
+                </nav>
+            </header>
+            
+            <main>
+                <section id="hero">
+                    <h1>김포 오퍼스 한강 스위첸</h1>
+                    <p>한강이 보이는 프리미엄 라이프</p>
+                </section>
+                
+                <section id="overview">
+                    <h2>사업개요</h2>
+                    <dl>
+                        <dt>위치</dt><dd>경기도 김포시 장기동 일원</dd>
+                        <dt>규모</dt><dd>지하 2층 ~ 지상 29층, 10개동</dd>
+                        <dt>세대수</dt><dd>총 850세대</dd>
+                        <dt>면적</dt><dd>84㎡, 99㎡</dd>
+                    </dl>
+                </section>
+                
+                <section id="location">
+                    <h2>입지환경</h2>
+                    <p>김포 한강신도시의 중심, 프리미엄 입지</p>
+                </section>
+                
+                <section id="contact">
+                    <h2>문의</h2>
+                    <p>전화: <a href="tel:1811-0000">1811-0000</a></p>
+                    <p>운영시간: 오전 10시 - 오후 6시</p>
+                </section>
+            </main>
+        </div>
+    </div>
+
+    <!-- JavaScript Modules - 로드되면 initial-content를 교체 -->
+    <script type="module" src="js/main.js"></script>
+    
+    <style>
+        /* 초기 로딩 스타일 */
+        .initial-loading {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            font-family: 'Noto Sans KR', sans-serif;
+        }
+        
+        .loading-spinner {
+            width: 50px;
+            height: 50px;
+            border: 3px solid #e0e0e0;
+            border-top-color: #1a5490;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+        
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+        
+        .initial-loading h1 {
+            margin-top: 30px;
+            font-size: 2rem;
+            color: #2c3e50;
+        }
+        
+        .initial-loading p {
+            margin-top: 10px;
+            color: #7f8c8d;
+        }
+        
+        /* JS 로드 후 initial-content 숨김 */
+        body.js-loaded #initial-content {
+            display: none;
+        }
+    </style>
+</body>
+</html>

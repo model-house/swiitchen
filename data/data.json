@@ -1,0 +1,685 @@
+{
+  "site": {
+    "title": "TEST김포 오퍼스 한강 스위첸",
+    "description": "김포 한강신도시 프리미엄 주거공간",
+    "contact": {
+      "phone": "1811-0013",
+      "hours": "오전 10시 - 오후 6시"
+    }
+  },
+  "hero": {
+    "title": "테스트입니다",
+    "subtitle": "한강이 보이는 프리미엄 라이프",
+    "description": "김포 한강신도시의 새로운 랜드마크",
+    "backgroundImage": "assets/images/hero/hero.jpg",
+    "buttons": [
+      {
+        "text": "모델하우스 예약",
+        "link": "#contact",
+        "type": "primary"
+      },
+      {
+        "text": "관심고객 등록",
+        "link": "#register",
+        "type": "secondary"
+      }
+    ],
+    "slideImages": [
+      "assets/images/hero/hero.jpg",
+      "assets/images/hero/hero1.jpg"
+    ]
+  },
+  "overview": {
+    "title": "사업 개요",
+    "visible": true,
+    "items": [
+      {
+        "label": "위치",
+        "value": "경기도 김포시 장기동 일원"
+      },
+      {
+        "label": "규모",
+        "value": "지하 2층 ~ 지상 29층, 10개동"
+      },
+      {
+        "label": "세대수",
+        "value": "총 850세대"
+      },
+      {
+        "label": "면적",
+        "value": "84㎡, 99㎡"
+      },
+      {
+        "label": "입주예정",
+        "value": "2027년 3월"
+      }
+    ],
+    "images": [
+      "assets/images/gaeyo/gaeyo1.jpg",
+      "assets/images/gaeyo/gaeyo2.jpg"
+    ],
+    "image": "assets/images/김포 오퍼스 한강 스위첸 모델하우스 사업개요.JPG"
+  },
+  "design": {
+    "title": "단지 설계",
+    "description": "원하는 묐든! 바라던 모든! 공간까지 든든한 스위첸",
+    "visible": true,
+    "cards": [
+      {
+        "title": "Design & Plan",
+        "points": [
+          {
+            "label": "Design",
+            "description": "굿디자인 어워드 우수디자인(GD) 선정된 스위첸 디자인 매뉴얼 2.0 적용"
+          },
+          {
+            "label": "Plan",
+            "description": "넓은 동간 거리 및 남향 위주(채광/세대 쾌적) 배치의 단지 설계"
+          }
+        ],
+        "image": "assets/images/sogae/1.jpg"
+      },
+      {
+        "title": "Space",
+        "description": "대면형 주방 및 조망형 다이닝, 오픈형 유틸리티, 브라이 덱 등 트렌드를 반영한 특화 평면 (타입별 상이)",
+        "image": "assets/images/sogae/2.jpg"
+      },
+      {
+        "title": "Community & Landscape",
+        "points": [
+          {
+            "label": "Community",
+            "description": "스위첸스퀘어, 피트니스 등 다채로운 커뮤니티"
+          },
+          {
+            "label": "Landscape",
+            "description": "오피스 센트럴 파크, 스토리 앨리, 필라트 가든 등 자연친화적인 조경"
+          }
+        ],
+        "image": "assets/images/sogae/3.jpg"
+      }
+    ]
+  },
+  "location": {
+    "title": "입지 환경",
+    "visible": true,
+    "description": "김포 한강신도시의 중심, 프리미엄 입지",
+    "highlights": [
+      {
+        "icon": "🚇",
+        "title": "교통",
+        "description": "김포골드라인 도보 5분"
+      },
+      {
+        "icon": "🏫",
+        "title": "교육",
+        "description": "학교 단지 내 위치"
+      },
+      {
+        "icon": "🛍️",
+        "title": "생활",
+        "description": "대형마트, 백화점 인접"
+      },
+      {
+        "icon": "🌳",
+        "title": "자연",
+        "description": "한강공원 도보 10분"
+      }
+    ],
+    "image": "http://localhost:3000/assets/images/ipzi/ipzi.jpg"
+  },
+  "floorPlans": {
+    "title": "평면도",
+    "visible": true,
+    "description": "합리적인 공간 설계",
+    "summary": {
+      "totalUnits": "619세대",
+      "totalBuildings": "10개동",
+      "areaDetails": [
+        {
+          "label": "주거전용면적",
+          "value": "84.9804㎡",
+          "units": ""
+        },
+        {
+          "label": "주거공용면적",
+          "value": "23.1332㎡",
+          "units": ""
+        },
+        {
+          "label": "공급면적",
+          "value": "108.1136㎡",
+          "units": ""
+        }
+      ]
+    },
+    "plans": [
+      {
+        "type": "84A",
+        "area": "84.92㎡",
+        "units": "250세대",
+        "description": "4Bay 남향 위주",
+        "features": [
+          "4Bay 남향 위주 배치",
+          "탄탄한 공간 구성",
+          "넓은 거실 공간",
+          "확장형 주방 설계"
+        ],
+        "image": "assets/images/pungsu/1.jpg",
+        "areaDetails": [
+          {
+            "label": "주거전용면적",
+            "value": "84.92㎡"
+          },
+          {
+            "label": "주거공용면적",
+            "value": "23.13㎡"
+          },
+          {
+            "label": "공급면적",
+            "value": "108.05㎡"
+          },
+          {
+            "label": "계약면적",
+            "value": "125.95㎡"
+          }
+        ],
+        "additionalImages": []
+      },
+      {
+        "type": "84B",
+        "area": "84.95㎡",
+        "units": "180세대",
+        "description": "3Bay 판상형",
+        "features": [
+          "3Bay 판상형 구조",
+          "효율적인 동선 설계",
+          "드레스룸 강화",
+          "충분한 수납공간"
+        ],
+        "image": "assets/images/pungsu/2.jpg",
+        "areaDetails": [],
+        "additionalImages": []
+      },
+      {
+        "type": "84C",
+        "area": "84.98㎡",
+        "units": "120세대",
+        "description": "4Bay 맞통풍",
+        "features": [
+          "4Bay 맞통풍 구조",
+          "전체 방 확장 가능",
+          "와이드 발코니",
+          "독립적인 공간 분리"
+        ],
+        "image": "assets/images/pungsu/3.jpg",
+        "areaDetails": [],
+        "additionalImages": []
+      },
+      {
+        "type": "99A",
+        "area": "99.92㎡",
+        "units": "45세대",
+        "description": "4Bay 남향 위주",
+        "features": [
+          "4Bay 남향 프리미엄",
+          "넓은 거실과 주방",
+          "패밀리룸 추가",
+          "대형 드레스룸"
+        ],
+        "image": "assets/images/pungsu/4.jpg",
+        "areaDetails": [],
+        "additionalImages": []
+      },
+      {
+        "type": "99B",
+        "area": "99.95㎡",
+        "units": "24세대",
+        "description": "4Bay 판상형",
+        "features": [
+          "4Bay 판상형 프리미엄",
+          "맞통풍 효과 극대화",
+          "별도 팬트리 공간",
+          "주방 아일랜드 설치"
+        ],
+        "image": "assets/images/pungsu/5.jpg",
+        "areaDetails": [],
+        "additionalImages": []
+      }
+    ]
+  },
+  "premium": {
+    "title": "프리미엄",
+    "description": "김포 오퍼스 한강 스위첸만의 특별한 가치",
+    "layoutType": "cards",
+    "visible": true,
+    "features": [
+      {
+        "icon": "🏢",
+        "title": "놀라운 미래가치",
+        "description": "한강신도시 내 공동주택의 가치\n입구 도시개발 및 김포메디컬 캠퍼스 계획 등",
+        "details": [
+          "한강신도시 내 공동주택의 가치",
+          "입구 도시개발 계획",
+          "김포메디컬 캠퍼스 계획"
+        ]
+      },
+      {
+        "icon": "🚗",
+        "title": "서울 빠른 쾌속교통",
+        "description": "김포한강로, 수도권제1순환도로 등\n5호선 연장(계획), 인천2호선 연장(계획) 예정",
+        "details": [
+          "김포한강로 접근성",
+          "수도권제1순환도로 인접",
+          "5호선 연장 계획",
+          "인천2호선 연장 계획"
+        ]
+      },
+      {
+        "icon": "🏫",
+        "title": "도보통학 우수한 교육환경",
+        "description": "단지 내 국공립어린이집, 바로 앞 유·초·중학교 계획\n놀이터 특별설계 시설 기능 적용 단지",
+        "details": [
+          "단지 내 국공립어린이집",
+          "바로 앞 유·초·중학교 계획",
+          "놀이터 특별설계 시설 기능 적용"
+        ]
+      },
+      {
+        "icon": "🏗️",
+        "title": "한강변의 직주근접",
+        "description": "산업단지 및 입구 업무지구분의\n이동이 편리한 직주여건 입지",
+        "details": [
+          "산업단지 인접",
+          "업무지구 근접",
+          "편리한 직주여건"
+        ]
+      },
+      {
+        "icon": "📐",
+        "title": "쾌적한 단지 설계",
+        "description": "여유로운 동간거리 및 환경변(임부세대)\n넉넉한 주차공간으로 편리한 주차",
+        "details": [
+          "여유로운 동간거리",
+          "환경변 임부세대",
+          "넉넉한 주차공간",
+          "편리한 주차 동선"
+        ]
+      },
+      {
+        "icon": "🏆",
+        "title": "스위첸 브랜드대단지",
+        "description": "한강신도시 첫 스위첸의 자부심과\n1,029세대의 대단지 프리미엄",
+        "details": [
+          "한강신도시 첫 스위첸",
+          "1,029세대 대단지",
+          "브랜드 프리미엄"
+        ]
+      }
+    ],
+    "additionalInfo": "",
+    "images": []
+  },
+  "options": {
+    "title": "기본 제공 품목 안내",
+    "description": "김포 오퍼스 한강 스위첸의 프리미엄 기본 제공 품목",
+    "visible": true,
+    "categories": [
+      {
+        "title": "시스템",
+        "items": [
+          {
+            "title": "공동현관",
+            "description": "안면인식 시스템"
+          },
+          {
+            "title": "현관 간접조명",
+            "description": "(84B, 84C, 99B)"
+          },
+          {
+            "title": "거실 및 각 침실",
+            "description": "에어컨 냉매배관"
+          },
+          {
+            "title": "현관/복도/거실/주방",
+            "description": "스크래치리스 도배지"
+          }
+        ]
+      },
+      {
+        "title": "주방/가전",
+        "items": [
+          {
+            "title": "거실 매입등 조도 및",
+            "description": "디밍 조절"
+          },
+          {
+            "title": "엔지니어드스톤",
+            "description": "주방상판"
+          },
+          {
+            "title": "와이드",
+            "description": "사각 싱크볼"
+          },
+          {
+            "title": "전기",
+            "description": "오븐"
+          }
+        ]
+      },
+      {
+        "title": "욕실/발코니",
+        "items": [
+          {
+            "title": "다용도실 및 발코니",
+            "description": "걸레받이 도장"
+          },
+          {
+            "title": "전동 빨래",
+            "description": "건조대"
+          },
+          {
+            "title": "실외기 AL",
+            "description": "자동루버"
+          },
+          {
+            "title": "욕실 샤워",
+            "description": "안전손잡이"
+          }
+        ]
+      },
+      {
+        "title": "시스템/보안",
+        "items": [
+          {
+            "title": "주방 센서형",
+            "description": "절수 수전"
+          },
+          {
+            "title": "고급형",
+            "description": "전열교환기"
+          },
+          {
+            "title": "비데일체형",
+            "description": "욕실"
+          }
+        ]
+      }
+    ]
+  },
+  "convenience": {
+    "title": "편의시설",
+    "description": "최첨단 스마트 라이프로 한발 앞선 내일을 경험하다",
+    "subtitle": "첨단 프리미엄 시스템과 스마트홈의 전격 스펙 표준화. 더욱 편리하고 안전하게 스마트한 일상을 누립니다.",
+    "visible": true,
+    "facilities": [
+      {
+        "category": "가족의 안전을 지켜주는 보안 시스템",
+        "items": [
+          {
+            "name": "무인경비 시스템",
+            "description": "공용현관과 경비실이 연계되어 외부 침입 등 비상 상황 시 신속 대응 가능"
+          },
+          {
+            "name": "CCTV 설치 (400만 화소)",
+            "description": "단지 내 안전한 생활을 위해 주차장, 놀이터, 엘리베이터 등에 설치"
+          },
+          {
+            "name": "첨단 디지털 도어록",
+            "description": "위급 시 문열림 버튼을 눌러 구조 요청할 수 있는 안전 도어록 설치"
+          },
+          {
+            "name": "홈네트워크 시스템",
+            "description": "가정 내 월패드를 통해 방문자 확인 및 공동현관 자동문 제어 가능"
+          },
+          {
+            "name": "주차관제 시스템",
+            "description": "차량번호 인식 및 무인 자동 출차 시스템으로 입·출차 통제 및 주차 편의 제공"
+          },
+          {
+            "name": "비상콜 시스템",
+            "description": "세대 내 월패드에서 경비실과 바로 통화 가능하여 위급 상황 시 신속한 대응 도움"
+          },
+          {
+            "name": "각 세대 현관 앞 비상경보 시스템",
+            "description": "세대 현관에 설치된 비상벨 누르면 경비실에 경보 발생 및 긴급상황 전달"
+          },
+          {
+            "name": "주차위치 인식 시스템",
+            "description": "지하주차장에 설치된 주차위치 인식 시스템을 통해 내 차량 위치 손쉽게 확인"
+          },
+          {
+            "name": "CCTV 통합관제 시스템",
+            "description": "CCTV 영상을 중앙에서 통합 관리하여 안전성을 강화하고 신속한 상황대처 가능"
+          }
+        ]
+      },
+      {
+        "category": "스마트한 생활을 위한 첨단 디지털 시스템",
+        "items": [
+          {
+            "name": "홈네트워크 시스템",
+            "description": "세대 내 통합 정보 단말기를 통해 일괄소등/난방/가스/엘리베이터 호출/조명제어/방문자 확인 등 다양한 생활 기능 제어 가능"
+          },
+          {
+            "name": "월패드",
+            "description": "세대 내에서 난방 제어, 조명 제어, 방문자 확인 등 가능"
+          },
+          {
+            "name": "전자도서관",
+            "description": "스마트폰, 태블릿PC 등으로 전자책 열람"
+          }
+        ]
+      },
+      {
+        "category": "똑똑하게 에너지를 아껴주는 에너지 절감 시스템",
+        "items": [
+          {
+            "name": "대기전력 차단 스위치",
+            "description": "사용하지 않는 가전제품의 대기전력을 차단하여 전기요금 절감"
+          },
+          {
+            "name": "에너지 사용량 모니터링 시스템",
+            "description": "세대 내에서 전기, 수도, 가스 사용량을 실시간 확인 가능"
+          },
+          {
+            "name": "주차장 LED 조명",
+            "description": "고효율 LED 조명 사용으로 에너지 절약 및 유지비 절감"
+          },
+          {
+            "name": "거실 인디렉트 조명 (간접조명, 색온도)",
+            "description": "세대 내부 거실에 설치된 인디렉트 조명은 색온도 조절 가능"
+          },
+          {
+            "name": "스마트 스위치",
+            "description": "세대 내 조명을 스마트하게 제어하여 에너지 절감 및 생활 편의 제공"
+          },
+          {
+            "name": "복도 LED 조명 센서",
+            "description": "공용 복도에는 움직임 감지 센서를 설치해 효율적인 전력 사용"
+          },
+          {
+            "name": "대기전력 차단 콘센트",
+            "description": "필요 시 자동으로 대기전력을 차단해 공용 전기 절감"
+          }
+        ]
+      },
+      {
+        "category": "효율적인 공간활용으로 편리한 빌트인 시스템",
+        "items": [
+          {
+            "name": "빌트인 환기후드",
+            "description": "음식 조리 시 발생하는 오염된 공기를 강력하게 배출"
+          },
+          {
+            "name": "실속형 빌트인 시스템",
+            "description": "요리를 즐길 수 있도록 빌트인 주방가전(오븐) 제공"
+          },
+          {
+            "name": "빌트인 오븐",
+            "description": "음식 준비와 관리에 편리한 고급스러운 오븐 설치"
+          }
+        ]
+      },
+      {
+        "category": "건강한 일상을 완성하는 친환경 웰빙 시스템",
+        "items": [
+          {
+            "name": "KCC 친환경 마감재",
+            "description": "고품격 KCC 친환경 마감재로 쾌적하고 건강한 실내환경 조성"
+          },
+          {
+            "name": "환기시스템 (전열교환기)",
+            "description": "HEPA필터, 전열교환 환기시스템으로 오염물질 차단 및 365일 쾌적한 환경 유지"
+          },
+          {
+            "name": "중간층 완충 시스템",
+            "description": "각 세대 바닥 완충재 시공으로 층간 소음 차단 및 생활 소음 저감"
+          },
+          {
+            "name": "주방 자동 환기 시스템",
+            "description": "주방 후드와 연동되어 조리 시 자동으로 환기 가동"
+          },
+          {
+            "name": "세면대 고급 수전",
+            "description": "욕실 세면대에 고급 수전 시공으로 쾌적한 위생 관리 및 품격 있는 욕실 환경 제공"
+          },
+          {
+            "name": "안티 스크래치 욕조",
+            "description": "변색, 뒤틀림, 부식 방지 및 충격에 강한 고급형 욕조 설치"
+          }
+        ]
+      }
+    ]
+  },
+  "community": {
+    "title": "커뮤니티 시설",
+    "description": "",
+    "visible": true,
+    "overviewImage": "assets/images/community/main.jpg",
+    "floorPlanImage": "assets/images/community/sub.jpg",
+    "mainImage": "assets/images/community/main.jpg",
+    "facilities": [
+      {
+        "name": "키즈카페",
+        "description": "아이들을 위한 안전하고 재미있는 놀이공간",
+        "image": "assets/images/community/1.jpg",
+        "mainImage": "assets/images/community/1.jpg"
+      },
+      {
+        "name": "영화감상공간",
+        "description": "프라이빗 영화관에서 즐기는 특별한 시간",
+        "image": "",
+        "mainImage": ""
+      },
+      {
+        "name": "피트니스 클럽",
+        "description": "최첨단 시설의 프리미엄 피트니스",
+        "image": "",
+        "mainImage": ""
+      },
+      {
+        "name": "도서관",
+        "description": "조용한 독서와 학습을 위한 공간",
+        "image": "",
+        "mainImage": ""
+      },
+      {
+        "name": "광장",
+        "description": "주민들의 소통과 휴식을 위한 열린 공간",
+        "image": "",
+        "mainImage": ""
+      },
+      {
+        "name": "음악 휴게공간",
+        "description": "음악과 함께하는 힐링 라운지",
+        "image": "",
+        "mainImage": ""
+      },
+      {
+        "name": "골프연습장",
+        "description": "실내 골프 연습을 위한 전문 시설",
+        "image": "",
+        "mainImage": ""
+      },
+      {
+        "name": "학습 공간",
+        "description": "집중 학습을 위한 독립된 공간",
+        "image": "",
+        "mainImage": ""
+      }
+    ]
+  },
+  "contact": {
+    "title": "상담 문의",
+    "visible": true,
+    "phone": "",
+    "hours": "",
+    "address": "",
+    "kakao": "",
+    "form": {
+      "title": "관심고객 등록",
+      "fields": [
+        {
+          "name": "name",
+          "label": "성명",
+          "type": "text",
+          "required": true
+        },
+        {
+          "name": "phone",
+          "label": "연락처",
+          "type": "tel",
+          "required": true
+        },
+        {
+          "name": "type",
+          "label": "관심평형",
+          "type": "select",
+          "options": [
+            "84A",
+            "84B",
+            "84C",
+            "99A",
+            "99B"
+          ],
+          "required": true
+        },
+        {
+          "name": "message",
+          "label": "문의사항",
+          "type": "textarea",
+          "required": false
+        }
+      ]
+    }
+  },
+  "footer": {
+    "projectInfo": {
+      "projectName": "김포 오퍼스 한강 스위첸",
+      "manager": "홍길동",
+      "description": "김포 한강신도시의 새로운 랜드마크 김포 오퍼스 한강 스위첸",
+      "address": "경기도 김포시 장기동 일원 (한강신도시 내)"
+    },
+    "companies": {
+      "developer": "㈜김포도시개발",
+      "constructor": "㈜대우건설",
+      "trustee": "㈜하나자산신탁"
+    },
+    "contacts": {
+      "phone": "1811-0000",
+      "kakao": "http://pf.kakao.com/_xexaxaK"
+    },
+    "disclaimers": [
+      "상기 내용은 인·허가 과정이나 실제 시공 시 현장 여건 등에 따라 일부 변경될 수 있으므로 견본주택에 방문하시어 직접 확인하시기 바랍니다.",
+      "사용된 이미지 혹은 CG는 소비자의 이해를 돕기 위한 것으로 실제와 차이가 날 수 있습니다."
+    ],
+    "additionalNote": "※ 홈페이지의 모든 이미지와 내용은 소비자의 이해를 돕기 위한 것으로 실제와 차이가 있을 수 있습니다."
+  },
+  "seo": {
+    "title": "TEST김포 오퍼스 한강 스위첸 | 김포 한강신도시 프리미엄 아파트 분양",
+    "description": "김포 한강신도시 프리미엄 아파트 김포 오퍼스 한강 스위첸. 지하철 도보 5분, 한강조망, 84㎡·99㎡ 분양",
+    "keywords": "김포 아파트, 김포 한강신도시, 김포 분양, 스위첸, 오퍼스, 김포 오퍼스 한강 스위첸",
+    "ogImage": "assets/images/hero/hero.jpg"
+  }
+}
